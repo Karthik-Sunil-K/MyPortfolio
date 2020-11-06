@@ -115,24 +115,24 @@ h1, h2, h3, h4, h5, h6 {
 # Header
 --------------------------------------------------------------*/
 #header {
-  background: #e9e8e6;
+  /* background: #e9e8e6; */
   box-shadow: 0px 0px 25px 0 rgba(0, 0, 0, 0.08);
   z-index: 997;
-  padding: 15px 0;
+  /* padding: 15px 0; */
 }
 
 #header .logo {
-  font-size: 32px;
+  font-size: 20px;
   margin: 0;
   padding: 0;
   line-height: 1;
   font-weight: 400;
-  letter-spacing: 2px;
+  /* letter-spacing: 2px; */
   text-transform: uppercase;
 }
 
 #header .logo a {
-  color: #222222;
+  color: #ffffff;
 }
 
 #header .logo img {
@@ -168,7 +168,7 @@ h1, h2, h3, h4, h5, h6 {
 .nav-menu a {
   display: block;
   position: relative;
-  color: #888888;
+  color: #ffffff;
   transition: 0.3s;
   font-size: 15px;
   font-family: "Raleway", sans-serif;
@@ -188,14 +188,14 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.3s ease-in-out 0s;
 }
 
-.nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
+/* .nav-menu a:hover:before, .nav-menu li:hover > a:before, .nav-menu .active > a:before {
   visibility: visible;
   width: 25px;
 }
 
 .nav-menu a:hover, .nav-menu .active > a, .nav-menu li:hover > a {
   color: #222222;
-}
+} */
 
 .nav-menu .drop-down ul {
   display: block;
@@ -413,7 +413,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  /* background: url("../img/hero-bg.jpg") top right; */
+  background-image:url('https://images4.alphacoders.com/772/thumb-1920-772364.png');
   background-size: cover;
 }
 
@@ -422,7 +422,7 @@ h1, h2, h3, h4, h5, h6 {
   position: relative;
 }
 
-@media (max-width: 992px) {
+@media (max-width: 100px) {
   #hero .container {
     padding-top: 58px;
   }
@@ -433,37 +433,42 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 48px;
   font-weight: 700;
   line-height: 56px;
-  color: #222222;
+  color: white;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 #hero h2 {
-  color: #6f6f6f;
+  color: white;
   margin: 10px 0 0 0;
   font-size: 22px;
+  text-align: left;
 }
-
+#hero p{
+  color: white;
+}
 #hero .btn-about {
   font-family: "Raleway", sans-serif;
-  text-transform: uppercase;
+  text-transform: unset;
   font-weight: 600;
-  font-size: 12px;
+  font-size: 20px;
   letter-spacing: 1px;
   display: inline-block;
   padding: 12px 40px;
   border-radius: 50px;
+  border-color: black;
   transition: 0.5s;
   margin-top: 30px;
-  color: #fff;
-  background: #34b7a7;
+  color: white;
+  background: transparent;
 }
 
-#hero .btn-about:hover {
+/* #hero .btn-about:hover {
   background: #3dc8b7;
-}
+}  */
 
-@media (min-width: 1024px) {
+@media (min-width: 100px) {
   #hero {
-    background-attachment: fixed;
+    background-attachment: unset;
   }
 }
 
