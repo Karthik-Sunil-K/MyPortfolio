@@ -11,10 +11,14 @@
 body {
   font-family: "Open Sans", sans-serif;
   color: #444444;
+  background-color: black;
 }
-
+.abt-h{
+  color: white;
+  
+}
 a {
-  color: #34b7a7;
+  color:white
 }
 
 a:hover {
@@ -23,18 +27,18 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Raleway", sans-serif;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-#main {
+/* #main {
   margin-top: 50px;
-}
+} */
 
-@media (max-width: 992px) {
+/* @media (max-width: 992px) {
   #main {
     margin-top: 30px;
   }
-}
+} */
 
 /*--------------------------------------------------------------
 # Preloader
@@ -506,18 +510,21 @@ section {
 .section-title {
   text-align: center;
   padding-bottom: 30px;
+  color: white;
+  
 }
 
 .section-title h2 {
   font-size: 32px;
   font-weight: bold;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   margin-bottom: 20px;
   padding-bottom: 20px;
   position: relative;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.section-title h2::after {
+/* .section-title h2::after {
   content: '';
   position: absolute;
   display: block;
@@ -526,10 +533,11 @@ section {
   background: #34b7a7;
   bottom: 0;
   left: calc(50% - 25px);
-}
+} */
 
 .section-title p {
   margin-bottom: 0;
+  color: #444444;
 }
 
 /*--------------------------------------------------------------
@@ -584,14 +592,19 @@ section {
     justify-content: flex-end;
   }
 }
+.abrow{
+  height: 600px;
+  width: 100%;
+}
+#about{
+  background-color: black;
 
-/*--------------------------------------------------------------
-# About
---------------------------------------------------------------*/
+}
+
 .about .content h3 {
   font-weight: 700;
   font-size: 26px;
-  color: #555555;
+  color: brown;
 }
 
 .about .content ul {
@@ -810,7 +823,7 @@ section {
   text-align: center;
   padding: 70px 20px 80px 20px;
   transition: all ease-in-out 0.3s;
-  background: #fff;
+  background: black;
   box-shadow: 0px 0 35px 0 rgba(0, 0, 0, 0.08);
 }
 
